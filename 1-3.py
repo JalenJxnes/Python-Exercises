@@ -1,0 +1,5 @@
+myfile = open('myfile.txt', "r")
+output = myfile.read()
+myfile.close()
+output = myfile.read().replace("Line ", "")
+print(output)
